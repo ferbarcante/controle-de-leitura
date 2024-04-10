@@ -7,11 +7,14 @@
     --color-dark-100: #312d37;
     --color-dark-900: #000;
 
-    --color-pink-50: #ffafcc;
-    --color-pink-100: #ffc8dd;
+    --color-pink-50: #fcbad3;
+    --color-pink-100:  #faa0c1;
     --color-yellow-200: #ffe6a7;
+    --color-yellow-300: #dd7695;
 
-    --color-gradient: linear-gradient(90deg, var(--color-pink-50), var(--color-pink-100), var(--color-yellow-200));
+    --color-gradient: linear-gradient(90deg, var(--color-yellow-300), var(--color-pink-100), var(--color-pink-50),var(--color-yellow-200));
+    --color-gradient-2: linear-gradient(90deg, var(--color-yellow-300), var(--color-pink-100), var(--color-pink-50));
+
 }
 
 * {
@@ -143,7 +146,7 @@
 
 #login-button {
     border: none;
-    background: var(--color-gradient);
+    background: var(--color-gradient-2);
     color: var(--color-ligth-50);
     padding: 7px;
     font-size: 18px;
